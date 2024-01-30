@@ -1,43 +1,68 @@
 * { 
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-}
-
-/* CSS Custom Properties */
-:root {
-  --main-bg: #4a4e4d;
-  --top-menu-bg: #0e9aa7;
-  --sub-menu-bg: #3da4ab;
+  font-family: "Poppins", sans-serif;
+  border: solid 1px red;
 }
 
 body {
-  font-family: Tahoma, Geneva, sans-serif;
   height: 100vh;
-  margin: 0;
-  display: grid;
-  grid-template-rows: 3rem auto;
-  color: white;
-}
-
-.flex-ctr {
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  background-color: rgb(231, 231, 231);
 }
 
-.flex-around {
+header {
+  width: 100%;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  gap: 8px;
 }
 
-nav a {
-  line-height: 3rem;
-  padding: 0 1rem;
-  text-transform: uppercase;
-  text-decoration: none;
+/* navbar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: maroon;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  display: inline-block;
+ 
+}
+
+li a {
+  display: block;
   color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width: 100%;
+  
 }
 
-#top-menu a:hover {
-  background-color: var(--sub-menu-bg);
+li a:hover {
+  background-color: #111;
 }
+
+.heading {
+  color: maroon;
+}
+
+.title {
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+

@@ -1,16 +1,77 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>ALAB DOM Manipulation</title>
-    <meta charset="UTF-8" />
-  </head>
-
-  <body>
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, 
+                         initial-scale=1.0">
+    <title>The Narrative membership</title>
+    <link rel="stylesheet"
+          href="styles/styles.css">
+</head>
+ 
+<body>
+      <!-- Navbar -->
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
     <header>
-      <nav id="top-menu"></nav>
+        <h1 class="heading">The Narrative news</h1>
+       <p>Login in to your profile today or sign up and become a part of a community that follows the objective news with no political party affiliation.</p>
+        <h3 class="title"> The Narrative subscriber Login & Registration </h3>
     </header>
-    <main></main>
 
+    <form>
+      <div>
+        <h1>Register</h1>
+        <p>Kindly fill in this form to register.</p>
+        <label for="username"><b>Username</b></label>
+        <input
+          type="text"
+          placeholder="Enter username"
+          name="username"
+          id="username"
+          required
+        />
+
+        <label for="email"><b>Email</b></label>
+        <input
+          type="text"
+          placeholder="Enter Email"
+          name="email"
+          id="email"
+          required
+        />
+
+        <label for="pwd"><b>Password</b></label>
+        <input
+          type="password"
+          placeholder="Enter Password"
+          name="pwd"
+          id="pwd"
+          required
+        />
+
+        <label for="pwd-repeat"><b>Repeat Password</b></label>
+        <input
+          type="password"
+          placeholder="Repeat Password"
+          name="pwd-repeat"
+          id="pwd-repeat"
+          required
+        />
+        <!-- submit button -->
+        <button type="submit">Register</button>
+      </div>
+      <div></div>
+    </form>
+
+
+
+ 
     <script src="src/index.js"></script>
-  </body>
-</html> 
+</body>
+</html>
