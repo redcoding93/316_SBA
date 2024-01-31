@@ -1,7 +1,7 @@
 * { 
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   font-family: "Poppins", sans-serif;
   /* border: solid 1px red; */
 }
@@ -90,6 +90,7 @@ form {
   padding-bottom: 3%;
   padding-left: 1%;
   padding-right: 1%;
+  padding-top: 1%;
   border-radius: 5% 5%;
 }
 
@@ -110,7 +111,6 @@ input {
 
 button {
   padding: 0.85em;
-  border: none;
   outline: none;
   background-color:  #1E88E5;
   color: white;
@@ -124,11 +124,8 @@ button:hover {
   background-color: #A0CAEF;
 }
 
-.form1{
-  width: 100%;
-}
-
-.login-page {
-
+.create_button {
+  margin-left: 30%;
+  margin-bottom: 3%;
 }
 
