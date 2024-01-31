@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  border: solid 1px red;
+  /* border: solid 1px red; */
 }
 
 body {
@@ -16,6 +16,8 @@ body {
   gap: 30px;
   background-color: rgb(231, 231, 231);
   font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(90deg, hsla(203, 89%, 71%, 1) 0%, hsla(0, 0%, 96%, 1) 100%);
+
 }
 
 header {
@@ -33,7 +35,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: maroon;
+  background: linear-gradient(90deg, hsla(208, 79%, 51%, 1) 0%, hsla(0, 0%, 96%, 1) 78%);
   position: absolute;
   top: 0;
   width: 100%;
@@ -59,7 +61,9 @@ li a:hover {
 }
 
 .heading {
-  color: maroon;
+  color: #1E88E5;
+  text-shadow: 2px 2px 4px #000000;
+  margin-top: 3%;
 }
 
 .title {
@@ -81,7 +85,10 @@ form {
   display: flex;
   flex-direction: column;
   width: 25vw;
-  box-shadow: ;
+  box-shadow: 7px 7px grey;
+  border: 3px solid #1E88E5;
+  padding-bottom: 2%;
+  border-radius: 5% 5%;
 }
 
 h1, p {
@@ -103,13 +110,13 @@ button {
   padding: 0.75em;
   border: none;
   outline: none;
-  background-color:  maroon;
+  background-color:  #1E88E5;
   color: white;
-  border-radius: 0.25em;
+  border-radius: 0.35em;
 }
 
 /* hover functionality for button */
 button:hover {
   cursor: pointer;
-  background-color: lightcoral;
+  background-color: #A0CAEF;
 }

@@ -23,17 +23,20 @@
         <h3 class="title"> The Narrative subscriber Login & Registration </h3>
     </header>
 
-    <form>
-      <div class="container">
-        <h1>Create an account</h1>
-        <p>Login in to your profile today or sign up and become a part of a community that follows the objective news with no political party affiliation.</p>
+    <form name="myForm">
+      <div class="container" class="create">
+        <h1>Create an account</h1><br>
+        <p>Login in to your profile today or sign up and become a part of a community that follows the objective news with no political party affiliation.</p><br>
         <label for="username"><b>Username</b></label>
         <input
           type="text"
           placeholder="Enter username"
           name="username"
           id="username"
+          name="fname"
+
           required
+
         />
 
         <label for="email"><b>Email</b></label>
@@ -63,27 +66,27 @@
           required
         />
 
-        <button type="submit">Create Account</button>
-      </div>
-
+        <button type="submit" onclick="myFunction()">Create Account</button><br>
       <div>
-        <p>Already have an account? <a href="#">Log in</a>.</p>
-      </div>
-    </form>
 
+        <p>Already have an account? <a href="#" style="text-align: center;">Log in</a>.</p>
+      </div>
+    </div>
+    </form>
+    <div class="container" class="login">
     <div class="login-page">
       <div class="form">
         <div class="login">
           <div class="login-header">
-            <h3>LOGIN</h3>
-            <p>Please enter your credentials to login.</p>
+            <h3 style="text-align: center;">LOGIN</h3><br>
+            <p>Please enter your credentials to login.</p><br>
           </div>
         </div>
-      <div class="container">
+      
         <form class="login-form">
           <input type="text" placeholder="username"/>
           <input type="password" placeholder="password"/>
-          <button>login</button>
+          <button onclick="myFunction2()">login</button><br>
           <p class="message">Not registered? <a href="#">Create an account</a></p>
         </form>
         </div>
