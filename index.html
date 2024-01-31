@@ -23,7 +23,7 @@
         <h3 class="title"> The Narrative subscriber Login & Registration </h3>
     </header>
 
-    <form name="myForm">
+    <form name="myForm" class="form1">
       <div class="container" class="create">
         <h1>Create an account</h1><br>
         <p>Login in to your profile today or sign up and become a part of a community that follows the objective news with no political party affiliation.</p><br>
@@ -41,10 +41,10 @@
 
         <label for="email"><b>Email</b></label>
         <input
-          type="text"
-          placeholder="Enter Email"
-          name="email"
-          id="email"
+        input type="email" 
+        id="email" 
+        name="email"
+        class="email"
           required
         />
 
@@ -52,26 +52,42 @@
         <input
           type="password"
           placeholder="Enter Password"
-          name="pwd"
+          name="pwd password1"
           id="pwd"
           required
         />
 
-        <label for="pwd-repeat"><b>Repeat Password</b></label>
+        <label for="pwd-repeat"><br><b>Repeat Password</b></label>
         <input
           type="password"
           placeholder="Repeat Password"
-          name="pwd-repeat"
+          name="pwd-repeat password2"
           id="pwd-repeat"
           required
         />
 
+        <label>
+          <br>
+          <input type="checkbox" name="selectBy" checked />
+          Sign up for newsletter </label
+        ><br />
+        <label>
+          <input type="checkbox" name="selectBy" checked />
+           Accept privacy</label
+        ><br />
+        <label>
+          <input type="checkbox" name="selectBy" checked />
+          Accept terms and conditions </label
+        ><br />
         <button type="submit" onclick="myFunction()">Create Account</button><br>
-      <div>
+        <p>Already have an account? <a href="#" style="text-align: center;">Log in</a></p>
+       </div>
 
-        <p>Already have an account? <a href="#" style="text-align: center;">Log in</a>.</p>
       </div>
+      <div>
     </div>
+
+
     </form>
     <div class="container" class="login">
     <div class="login-page">
@@ -82,7 +98,8 @@
             <p>Please enter your credentials to login.</p><br>
           </div>
         </div>
-      
+        </div>
+
         <form class="login-form">
           <input type="text" placeholder="username"/>
           <input type="password" placeholder="password"/>
@@ -90,7 +107,8 @@
           <p class="message">Not registered? <a href="#">Create an account</a></p>
         </form>
         </div>
- 
+    </div>
+
     <script src="src/index.js"></script>
 </body>
 </html>

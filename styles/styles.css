@@ -82,12 +82,14 @@ form {
 }
 
 .container {
-  display: flex;
+  display: inline-block;
   flex-direction: column;
-  width: 25vw;
+  width: 30%;
   box-shadow: 7px 7px grey;
   border: 3px solid #1E88E5;
-  padding-bottom: 2%;
+  padding-bottom: 3%;
+  padding-left: 1%;
+  padding-right: 1%;
   border-radius: 5% 5%;
 }
 
@@ -107,12 +109,13 @@ input {
 }
 
 button {
-  padding: 0.75em;
+  padding: 0.85em;
   border: none;
   outline: none;
   background-color:  #1E88E5;
   color: white;
   border-radius: 0.35em;
+  width: 50%;
 }
 
 /* hover functionality for button */
@@ -120,3 +123,12 @@ button:hover {
   cursor: pointer;
   background-color: #A0CAEF;
 }
+
+.form1{
+  width: 100%;
+}
+
+.login-page {
+
+}
+
