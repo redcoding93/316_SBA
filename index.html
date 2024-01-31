@@ -14,20 +14,19 @@
       <!-- Navbar -->
       <ul>
         <li><a class="active" href="#home">Home</a></li>
-        <li><a href="#news">News</a></li>
+        <li><a href="#account">Account</a></li>
         <li><a href="#contact">Contact</a></li>
         <li><a href="#about">About</a></li>
       </ul>
     <header>
         <h1 class="heading">The Narrative news</h1>
-       <p>Login in to your profile today or sign up and become a part of a community that follows the objective news with no political party affiliation.</p>
         <h3 class="title"> The Narrative subscriber Login & Registration </h3>
     </header>
 
     <form>
-      <div>
-        <h1>Register</h1>
-        <p>Kindly fill in this form to register.</p>
+      <div class="container">
+        <h1>Create an account</h1>
+        <p>Login in to your profile today or sign up and become a part of a community that follows the objective news with no political party affiliation.</p>
         <label for="username"><b>Username</b></label>
         <input
           type="text"
@@ -63,14 +62,31 @@
           id="pwd-repeat"
           required
         />
-        <!-- submit button -->
-        <button type="submit">Register</button>
+
+        <button type="submit">Create Account</button>
       </div>
-      <div></div>
+
+      <div>
+        <p>Already have an account? <a href="#">Log in</a>.</p>
+      </div>
     </form>
 
-
-
+    <div class="login-page">
+      <div class="form">
+        <div class="login">
+          <div class="login-header">
+            <h3>LOGIN</h3>
+            <p>Please enter your credentials to login.</p>
+          </div>
+        </div>
+      <div class="container">
+        <form class="login-form">
+          <input type="text" placeholder="username"/>
+          <input type="password" placeholder="password"/>
+          <button>login</button>
+          <p class="message">Not registered? <a href="#">Create an account</a></p>
+        </form>
+        </div>
  
     <script src="src/index.js"></script>
 </body>
