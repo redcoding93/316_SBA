@@ -52,8 +52,9 @@
         <input
           type="password"
           placeholder="Enter Password"
-          name="pwd password1"
+          name="pwd"
           id="pwd"
+          pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
           required
         />
 
@@ -61,8 +62,9 @@
         <input
           type="password"
           placeholder="Repeat Password"
-          name="pwd-repeat password2"
+          name="pwd-repeat"
           id="pwd-repeat"
+          pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
           required
         />
 
@@ -108,14 +110,25 @@
         </div>
         </div>
 
-        <form class="login-form">
-          <input type="text" placeholder="username"/>
-          <input type="password" placeholder="password"/>
-          <button onclick="myFunction2()">login</button><br>
+        <form class="login-form" onsubmit ="return verifyPassword()">
+
           <p class="message">Not registered? <a href="#">Create an account</a></p>
-        </form>
+
+          <!-- Enter Password -->  
+<td> Enter Password </td>  
+<input type = "password" id = "pswd" value = "">   
+<span id = "message" style="color:red"> </span> <br><br>  
+  
+<!-- Click to verify valid password -->  
+<input type = "submit" value = "Submit">  
+  
+<!-- Click to reset fields -->  
+<button type = "reset" value = "Reset" >Reset</button>  
+</form>
+
         </div>
     </div>
+    
     <!-- <button onclick="myFunction3()" style="width: 100%;"></button> -->
     <footer>
       <h5>Copyright © 2024 The Narrative </h5>
@@ -125,3 +138,13 @@
     <script src="src/index.js"></script>
 </body>
 </html>
+<!-- <input type="text" placeholder="username" required/>
+<input type="password" placeholder="password" id = "pswd" required/> -->
+<!-- <input type = "password" id = "pswd" value = "" placeholder="Enter Password"> 
+<span id = "message" style="color:red"> </span> <br><br>
+
+<!-- Click to verify valid password -->
+<!-- <input type = "submit" value = "Submit"> --> -->
+
+<!-- Click to reset fields -->
+<!-- <button>login</button><br> --> -->
