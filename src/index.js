@@ -89,13 +89,20 @@ footer = document.body.style.backgroundColor = "darkblue"
 //     element.classList.toggle("dark-mode");
 //   }
 
+//Create at least one element using createElement.
   const newEl = (s) => document.createElement(s);
 
+  //Cache at least one element using selectElementById.
   const app = document.getElementById("app");
   
+  //Use appendChild and/or prepend to add new elements to the DOM.
   const d1 = app.appendChild(newEl("div"));
   
+  //Modify the HTML or text content of at least one element in response to user interaction using innerHTML, innerText, or textContent.
   d1.textContent = `The Narrative subscriber Login & Registration`;
   
  
 
+  const cList = document.getElementById("commentList");
+  const cInput = document.getElementById("commentInput");
+  const cBtn = document.getElementById("addCommentBtn");

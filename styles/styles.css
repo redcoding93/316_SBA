@@ -20,8 +20,25 @@ body {
   background: linear-gradient(90deg, hsla(203, 89%, 71%, 1) 0%, hsla(0, 0%, 96%, 1) 100%);
 
 }
+footer {
+  /* overflow: hidden; */
+  background-color: #1E88E5;
+  /* position: fixed; */
+  bottom: 0;
+  height: 5%;
+  width: 100%;
+  color: white;
+  text-align: center;
+  left: 0;
+}
 
-.footer {
+footer h5 {
+  color: white;
+  padding-top: 1%;
+  padding-bottom: .5%;
+}
+
+/* .footer {
   position: fixed;
   left: 0;
   bottom: 0;
@@ -29,7 +46,7 @@ body {
   color: white;
   text-align: center;
   background-color:  #1E88E5;
-}
+} */
 
 .dark-mode {
   background-color: black;
@@ -56,7 +73,7 @@ ul {
   position: absolute;
   top: 0;
   width: 100%;
-  margin-bottom: 5%;
+  margin-bottom: 4%;
 }
 
 li {
@@ -108,6 +125,7 @@ form {
   padding-left: 1%;
   padding-right: 1%;
   padding-top: 1%;
+  margin-bottom: 5%;
   border-radius: 5% 5%;
 }
 
