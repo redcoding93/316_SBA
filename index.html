@@ -109,22 +109,34 @@
           </div>
         </div>
         </div>
-
+        <form>
+          <label for="username"><b>Username</b></label>
+          <input
+            type="text"
+            placeholder="Enter username"
+            name="username"
+            id="username"
+            name="fname"
+  
+            required
+  
+          />
+        </form>
         <form class="login-form" onsubmit ="return verifyPassword()">
 
-          <p class="message">Not registered? <a href="#">Create an account</a></p>
 
           <!-- Enter Password -->  
-<td> Enter Password </td>  
-<input type = "password" id = "pswd" value = "">   
-<span id = "message" style="color:red"> </span> <br><br>  
-  
-<!-- Click to verify valid password -->  
-<input type = "submit" value = "Submit">  
-  
-<!-- Click to reset fields -->  
-<button type = "reset" value = "Reset" >Reset</button>  
-</form>
+          <td> Password </td>  
+          <input type = "password" id = "pswd" value = "">   
+          <span id = "message" style="color:black"> </span> <br><br>  
+            
+          <!-- Click to verify valid password -->  
+          <input type = "submit" value = "Submit">  
+            
+          <!-- Click to reset fields -->  
+          <button type = "reset" value = "Reset" id="reset">Reset</button>  
+          </form>
+          <p class="message">Not registered? <a href="#">Create an account</a></p>
 
         </div>
     </div>
@@ -132,19 +144,7 @@
     <!-- <button onclick="myFunction3()" style="width: 100%;"></button> -->
     <footer>
       <h5>Copyright © 2024 The Narrative </h5>
-        </h5>
-      </h6>
     </footer>
     <script src="src/index.js"></script>
 </body>
 </html>
-<!-- <input type="text" placeholder="username" required/>
-<input type="password" placeholder="password" id = "pswd" required/> -->
-<!-- <input type = "password" id = "pswd" value = "" placeholder="Enter Password"> 
-<span id = "message" style="color:red"> </span> <br><br>
-
-<!-- Click to verify valid password -->
-<!-- <input type = "submit" value = "Submit"> --> -->
-
-<!-- Click to reset fields -->
-<!-- <button>login</button><br> --> -->

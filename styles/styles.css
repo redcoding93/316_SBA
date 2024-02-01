@@ -37,7 +37,14 @@ footer h5 {
   padding-top: 1%;
   padding-bottom: .5%;
 }
+form td {
+  font-weight: 600;"
+}
 
+#reset {
+  width: 25%;
+  padding-left: 1%;
+}
 /* .footer {
   position: fixed;
   left: 0;
