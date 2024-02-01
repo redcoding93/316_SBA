@@ -4,6 +4,7 @@
   /* box-sizing: border-box; */
   font-family: "Poppins", sans-serif;
   /* border: solid 1px red; */
+  color: black;
 }
 
 body {
@@ -20,13 +21,29 @@ body {
 
 }
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background-color:  #1E88E5;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
 header {
+  margin-top: 15%;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  /* gap: 8px; */
 }
 
 /* navbar */
@@ -39,6 +56,7 @@ ul {
   position: absolute;
   top: 0;
   width: 100%;
+  margin-bottom: 5%;
 }
 
 li {
@@ -63,7 +81,6 @@ li a:hover {
 .heading {
   color: #1E88E5;
   text-shadow: 2px 2px 4px #000000;
-  margin-top: 3%;
 }
 
 .title {

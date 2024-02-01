@@ -69,3 +69,33 @@ const inputs = document.getElementsByTagName("input");
 for (let input of inputs) {
   console.log(input);
 }
+
+// const body = document.body
+// const dive = document.querySelector("#byLine")
+footer = document.body.style.backgroundColor = "darkblue"
+
+
+//body.append("The Narrative subscriber Login & Registration");
+
+//const my_div = document.getElementById("my-div");
+//my_div.innerHTML("<h3>hello</h3>");
+// You can create a nested structures by
+// chaining appendChild() calls together.
+
+// div.innerText = "hello"
+ //body.appendChild(div)
+//  function myFunction3() {
+//     var element = document.getElementsByClassName("container");
+//     element.classList.toggle("dark-mode");
+//   }
+
+  const newEl = (s) => document.createElement(s);
+
+  const app = document.getElementById("app");
+  
+  const d1 = app.appendChild(newEl("div"));
+  
+  d1.textContent = `The Narrative subscriber Login & Registration`;
+  
+ 
+
