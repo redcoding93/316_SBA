@@ -23,9 +23,10 @@
     </header>
     <div id="app"></div>
 
+              <!-- Create account section -->
     <form name="myForm" class="form1">
       <div class="container" class="create">
-        <h1>Create an account</h1><br>
+        <h1 id="create2">Create an account</h1><br>
         <p>Login in or sign up today!</p><br>
         <label for="username"><b>Username</b></label>
         <input
@@ -70,6 +71,8 @@
 
         <label>
           <br>
+
+          <!-- Radio buttons -->
           <input type="checkbox" name="selectBy" checked />
           Sign up for newsletter </label
         ><br />
@@ -81,6 +84,7 @@
           <input type="checkbox" name="selectBy" checked />
           Accept terms and conditions </label
         ><br />
+
         <div class="create_button">
           <button type="submit" onclick="myFunction()">Create Account</button>
         </div>
@@ -92,12 +96,7 @@
     </div>
     </form>
 
-    <!-- <input type="text" id="commentInput" />
-    <button id="addCommentBtn">Subscribe to RSS Feed</button>
-    <h3>RSS Feed</h3>
-    <ul id="commentList">
-      <li>Thanks for subscribing!</li>
-    </ul> -->
+      <!-- Login section -->
 
     <div class="container" class="login">
     <div class="login-page">
@@ -122,8 +121,8 @@
   
           />
         </form>
-        <form class="login-form" onsubmit ="return verifyPassword()">
 
+        <form class="login-form" onsubmit ="return verifyPassword()">
 
           <!-- Enter Password -->  
           <td> Password </td>  

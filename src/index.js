@@ -44,8 +44,14 @@ function verifyPassword() {
 const inputs = document.getElementsByTagName("input");
 
 for (let input of inputs) {
-  console.log(input);
+  if (input.type === "text") {
+    input.value = "Enter username";
+  }
 }
+
+//Use the parent-child-sibling relationship to navigate between elements at least once (firstChild, lastChild, parentNode, nextElementSibling, etc.).
+
+
 
 //Create at least one element using createElement.
   const newEl = (s) => document.createElement(s);
@@ -56,17 +62,30 @@ for (let input of inputs) {
   //Use appendChild and/or prepend to add new elements to the DOM.
   const d1 = app.appendChild(newEl("div"));
   
-  //Modify the HTML or text content of at least one element in response to user interaction using innerHTML, innerText, or textContent.
+//Modify the HTML or text content of at least one element in response to user interaction using innerHTML, innerText, or textContent.
   d1.textContent = `The Narrative subscriber Login & Registration`;
 
-  //Register at least two different event listeners and create the associated event handler functions.
+//Register at least two different event listeners and create the associated event handler functions.
   document.getElementById("login").addEventListener("mouseover", mouseOver);
   document.getElementById("login").addEventListener("mouseout", mouseOut);
   
   function mouseOver() {
-    document.getElementById("login").style.color = "red";
+    //Modify the style and/or CSS classes of an element in response to user interactions using the style or classList properties.
+    document.getElementById("login").style.color = "#1E88E5";
   }
   
   function mouseOut() {
     document.getElementById("login").style.color = "black";
+  }
+
+  document.getElementById("create2").addEventListener("mouseover", mouseOver);
+  document.getElementById("create2").addEventListener("mouseout", mouseOut);
+  
+  function mouseOver() {
+    //Modify the style and/or CSS classes of an element in response to user interactions using the style or classList properties.
+    document.getElementById("create2").style.color = "#1E88E5";
+  }
+  
+  function mouseOut() {
+    document.getElementById("create2").style.color = "black";
   }
