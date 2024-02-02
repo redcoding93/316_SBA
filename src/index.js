@@ -1,4 +1,9 @@
 
+
+
+
+
+//Include at least one form and/or input with DOM event-based validation. 
 function verifyPassword() {  
     var pw = document.getElementById("pswd").value;  
     //check empty password field  
@@ -22,16 +27,7 @@ function verifyPassword() {
     }  
   }    
 
-
-//Username validation
-// function validateForm() {
-//     var x = document.forms["myForm"]["fname"].value;
-//     if (x == "" || x == null) {
-//       alert("Name must be filled out");
-//       return false;
-//     }
-//   }
-
+   //Cache at least one element using querySelector or querySelectorAll.
   //BOM alert when submitting account creation
   let email = document.querySelector(".email");
   function myFunction() {
@@ -63,6 +59,14 @@ for (let input of inputs) {
   //Modify the HTML or text content of at least one element in response to user interaction using innerHTML, innerText, or textContent.
   d1.textContent = `The Narrative subscriber Login & Registration`;
 
-  const cList = document.getElementById("commentList");
-  const cInput = document.getElementById("commentInput");
-  const cBtn = document.getElementById("addCommentBtn");
+  //Register at least two different event listeners and create the associated event handler functions.
+  document.getElementById("login").addEventListener("mouseover", mouseOver);
+  document.getElementById("login").addEventListener("mouseout", mouseOut);
+  
+  function mouseOver() {
+    document.getElementById("login").style.color = "red";
+  }
+  
+  function mouseOut() {
+    document.getElementById("login").style.color = "black";
+  }

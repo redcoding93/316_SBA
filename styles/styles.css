@@ -38,12 +38,13 @@ footer h5 {
   padding-bottom: .5%;
 }
 form td {
-  font-weight: 600;"
+  font-weight: 600;
 }
 
 #reset {
   width: 25%;
   padding-left: 1%;
+  margin-bottom: 3%;
 }
 /* .footer {
   position: fixed;
@@ -61,7 +62,7 @@ form td {
 }
 
 header {
-  margin-top: 15%;
+  margin-top: 25%;
   width: 100%;
   display: flex;
   flex-direction: column;
