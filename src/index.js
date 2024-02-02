@@ -50,10 +50,6 @@ for (let input of inputs) {
   }
 }
 
-//Use the parent-child-sibling relationship to navigate between elements at least once (firstChild, lastChild, parentNode, nextElementSibling, etc.).
-
-
-
 //Create at least one element using createElement.
   const newEl = (s) => document.createElement(s);
 
@@ -66,19 +62,7 @@ for (let input of inputs) {
 //Modify the HTML or text content of at least one element in response to user interaction using innerHTML, innerText, or textContent.
   d1.textContent = `The Narrative subscriber Login & Registration`;
 
-//Register at least two different event listeners and create the associated event handler functions.
-  document.getElementById("login").addEventListener("mouseover", mouseOver);
-  document.getElementById("login").addEventListener("mouseout", mouseOut);
-  
-  function mouseOver() {
-    //Modify the style and/or CSS classes of an element in response to user interactions using the style or classList properties.
-    document.getElementById("login").style.color = "#1E88E5";
-  }
-  
-  function mouseOut() {
-    document.getElementById("login").style.color = "black";
-  }
-
+  //Register at least two different event listeners and create the associated event handler functions.
   document.getElementById("create2").addEventListener("mouseover", mouseOver);
   document.getElementById("create2").addEventListener("mouseout", mouseOut);
   
@@ -91,4 +75,5 @@ for (let input of inputs) {
     document.getElementById("create2").style.color = "black";
   }
 
+  //Use the parent-child-sibling relationship to navigate between elements at least once 
   document.getElementById("id02").innerHTML = document.getElementById("id01").firstChild.nodeValue;
