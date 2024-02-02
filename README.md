@@ -25,7 +25,7 @@ Any additional information goes here
 | Modify at least one attribute of an element in response to user interaction. |  |  |
 | Register at least two different event listeners and create the associated event handler functions. |  | Done; Login and create account title mouseover and mouseout|
 | Use at least two Browser Object Model (BOM) properties or methods. |  | Done: Successful password login and create account submit button (when all fields are complete) |
-| Include at least one form and/or input with HTML attribute validation. |  | Done: create account username must be filled out; alerts when submitting empty username |
+| Include at least one form and/or input with HTML attribute validation. |  | Done: create account username must be filled out(remove filler text before testing this); alerts when submitting empty username field |
 | Include at least one form and/or input with DOM event-based validation. (This can be the same form or input as the one above, but should include event-based validation in addition to the HTML attribute validation.) | | Login password validation |
 | Ensure that the program runs without errors (comment out things that do not work, and explain your blockers - you can still receive partial credit). |  | no blockers |
 | Commit frequently to the git repository. |  | Done |
