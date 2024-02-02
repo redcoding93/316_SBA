@@ -77,3 +77,8 @@ for (let input of inputs) {
 
   //Use the parent-child-sibling relationship to navigate between elements at least once 
   document.getElementById("id02").innerHTML = document.getElementById("id01").firstChild.nodeValue;
+
+//| Modify at least one attribute of an element in response to user interaction. |  | Login title changed with setAttribute |
+  function myFunction() {
+    document.getElementById("myH1").setAttribute("class", "democlass"); 
+  }
