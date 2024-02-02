@@ -4,6 +4,7 @@
 
 
 //Include at least one form and/or input with DOM event-based validation. 
+//required the field to be filled out, must be 8 characters; no more than 15 characters; alets for all three if input is invalid
 function verifyPassword() {  
     var pw = document.getElementById("pswd").value;  
     //check empty password field  
