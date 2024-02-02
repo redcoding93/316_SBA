@@ -11,7 +11,7 @@ Any additional information goes here
 ## Features
 
 
-| Requirement |  |  |
+| Requirements |  |  |
 | --- | --- | --- |
 | Cache at least one element using selectElementById. | | title byline |
 | Cache at least one element using querySelector or querySelectorAll. | | Email alert |

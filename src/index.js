@@ -89,3 +89,5 @@ for (let input of inputs) {
   function mouseOut() {
     document.getElementById("create2").style.color = "black";
   }
+
+  document.getElementById("id02").innerHTML = document.getElementById("id01").firstChild.nodeValue;
