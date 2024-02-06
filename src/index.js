@@ -88,3 +88,8 @@ for (let input of inputs) {
   function myFunction() {
     document.getElementById("myH1").setAttribute("class", "democlass"); 
   }
+
+    //BOM alert when submitting account creation
+  function myFunction() {
+    alert("Your account has been created");
+  }
