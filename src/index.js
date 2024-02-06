@@ -85,7 +85,7 @@ for (let input of inputs) {
   document.getElementById("id02").innerHTML = document.getElementById("id01").firstChild.nodeValue;
 
 //| Modify at least one attribute of an element in response to user interaction. |  | Login title changed with setAttribute |
-  function myFunction() {
+  function myFunction3() {
     document.getElementById("myH1").setAttribute("class", "democlass"); 
   }
 
