@@ -1,12 +1,12 @@
 
 
 
-//Modify the HTML or text content of at least one element in response to user interaction using innerHTML, innerText, or textContent.
 //Click on hello text to see it change
 const changeText = document.querySelector("#change-text");
+//Modify the HTML or text content of at least one element in response to user interaction using innerHTML, innerText, or textContent.
 
 changeText.addEventListener("click", function() {
-  changeText.textContent = "Bye! We can't wait to see you again next time";
+  changeText.innerHTML = "Bye! We can't wait to see you again next time";
 });
 //Include at least one form and/or input with DOM event-based validation. 
 //required the field to be filled out, must be 8 characters; no more than 15 characters; alets for all three if input is invalid
@@ -35,6 +35,7 @@ function verifyPassword() {
 
    //Cache at least one element using querySelector or querySelectorAll.
   //BOM alert when submitting account creation
+  //remove user text before testing validations
   let email = document.querySelector(".email");
   function myFunction() {
     alert("Congrats on becoming a member!");
